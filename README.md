@@ -34,3 +34,40 @@ If you want to use it anyway, and secure it more :
 ## 🖥️ Compatibility
 
 Tested on **Windows 11**
+
+# French 
+
+Un script batch Windows simple qui masque et verrouille un dossier en le faisant passer pour la **Corbeille**, le rendant ainsi invisible aux utilisateurs occasionnels.
+
+## ✨ Fonctionnalités
+
+- 📁 Crée un dossier « Private » au premier lancement
+- 🔒 **Verrouillage en un clic** — masque instantanément le dossier en le faisant passer pour une fausse Corbeille
+- 🔑 Déverrouillage protégé par mot de passe
+- 👻 Le dossier masqué est totalement invisible et ouvre la véritable Corbeille lorsque l'on clique dessus
+
+## 🚀 Utilisation
+
+1. Placez `privater.bat` dans le dossier que vous souhaitez protéger
+2. Ouvrez `privater.bat` dans le Bloc-notes et remplacez « YOUR_PASSWORD_HERE » à la ligne 14 par votre mot de passe.
+3. Double-cliquez dessus — cela créera un dossier `Private`
+4. Placez vos fichiers dans `Private`
+5. Double-cliquez à nouveau sur `privater.bat` → le dossier est instantanément verrouillé
+6. Pour déverrouiller, double-cliquez sur `privater.bat` et entrez le mot de passe
+7. Suivez les étapes de la section AVERTISSEMENT pour mieux le sécuriser.
+
+## ⚠️ Avertissement
+
+Ce script offre une **caché** de base, et non un véritable chiffrement.
+Le mot de passe est stocké en clair dans le fichier `.bat`.
+Les informations relatives aux fichiers (titre, vignette, etc.) restent visibles partout dans votre système, même si ceux-ci ne peuvent pas être ouverts.
+Pour les données sensibles, envisagez d'utiliser [VeraCrypt](https://www.veracrypt.fr) ou BitLocker.
+
+Si vous souhaitez tout de même l'utiliser et le sécuriser davantage :
+1. Téléchargez [BatToExe ici](https://github.com/Makazzz/BatToExePortable).
+2. Après avoir modifié votre mot de passe (vous ne pourrez plus le faire par la suite /!\), lancez BatToExe et ouvrez-y votre fichier .bat.
+3. Cliquez sur « Convertir » et choisissez le dossier dans lequel vous souhaitez placer votre dossier de fichiers privés.
+
+## 🖥️ Compatibilité
+
+Testé sur **Windows 11**
