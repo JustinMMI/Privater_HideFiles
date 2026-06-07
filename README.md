@@ -12,7 +12,7 @@ A simple Windows batch script that hides and locks a folder by disguising it as 
 ## 🚀 Usage
 
 1. Place `privater.bat` in the folder you want to protect
-2. Open `privater.bat` in the notepad and modify "YOUR_PASSWORD_HERE" on line ... by your password.
+2. Open `privater.bat` in the notepad and modify "YOUR_PASSWORD_HERE" on line 14 by your password.
 3. Double-click it — it will create a `Private` folder
 4. Put your files inside `Private`
 5. Double-click `privater.bat` again → folder is instantly locked
