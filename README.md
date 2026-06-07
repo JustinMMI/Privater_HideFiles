@@ -58,7 +58,7 @@ Un script batch Windows simple qui masque et verrouille un dossier en le faisant
 
 ## ⚠️ Avertissement
 
-Ce script offre une **caché** de base, et non un véritable chiffrement.
+Ce script offre une **cachette** basique, et non un véritable chiffrement.
 Le mot de passe est stocké en clair dans le fichier `.bat`.
 Les informations relatives aux fichiers (titre, vignette, etc.) restent visibles partout dans votre système, même si ceux-ci ne peuvent pas être ouverts.
 Pour les données sensibles, envisagez d'utiliser [VeraCrypt](https://www.veracrypt.fr) ou BitLocker.
